@@ -1,0 +1,79 @@
+Create a modern, energetic, pool-hall themed website for Fat Cat’s Billiards, located at 2345 Hendersonville Rd, Arden, NC.
+Use their official logo (attached image) and match the brand’s color palette:
+electric pool-table blue (#21A8E0), deep navy/black, warm wood tones, and accent orange from the logo.
+
+The design should feel like a clean, updated sports bar + billiards hall: bright blue felt, dark tables, neon-lit atmosphere, and tournament energy.
+
+Include these sections:
+
+Hero Section
+
+Full-width image of pool tables like the cover photo
+
+Headline: “Asheville’s Home for Pool, Games, Good Food & Good Times.”
+
+Buttons: View Menu, Call Now, See Tournaments
+
+About
+
+Short description:
+“Fat Cat’s Billiards is Asheville’s premier pool hall and grill — with Diamond tables, darts, cornhole, live music, karaoke, UFC nights, and league play.”
+
+Include icons for pool, darts, food, drinks, live music.
+
+Events & Tournaments
+
+Dynamic card layout for APA / pool tournaments, cornhole nights, UFC watch parties, karaoke, DJ nights.
+
+Include space for embedded Facebook Live streams (they stream matches often).
+
+Food & Drinks
+
+Clean grid layout featuring bar & grill items
+
+Add CTA: “View Full Menu”
+
+Photo Gallery
+
+Use the pool hall photos (blue felt tables, darts area, atmosphere).
+
+Style like a modern, edge-to-edge grid.
+
+Reviews
+
+Highlight rating: “94% recommend (48+ reviews)”
+
+Use card layout for customer quotes.
+
+Location & Hours
+
+Map embed
+
+Hours (auto-styled badge showing open/closed status)
+
+Contact: (828) 681-0555, fatcatsbilliards.com
+
+Footer
+
+Logo
+
+Quick links: Menu, Events, Photos, Contact
+
+Social icons linking to Facebook & Instagram
+
+Address + phone number
+
+Overall Visual Style
+
+Use the bright pool-table blue for buttons and highlights.
+
+Dark backgrounds with wood/brick textures for depth.
+
+Rounded cards, clean sans-serif typography.
+
+Occasional orange accents drawn from the logo.
+
+Maintain a “sports-bar-meets-nightlife” aesthetic.
+
+Tone
+Fun, competitive, welcoming, energetic.

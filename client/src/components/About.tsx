@@ -11,8 +11,8 @@ export default function About() {
   return (
     <section className="py-20 bg-background relative">
       <div className="container mx-auto px-4 max-w-[1400px]">
-        <div className="bg-[#01BFFF] relative rounded-[4rem] overflow-hidden shadow-2xl">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#01BFFF] via-[#3dd5ff] to-[#01BFFF] opacity-90" />
+        <div className="bg-[#4CA6CB] relative rounded-[4rem] overflow-hidden shadow-2xl">
+          <div className="absolute inset-0 bg-gradient-to-br from-[#4CA6CB] via-[#6bc0e0] to-[#4CA6CB] opacity-90" />
           <div className="absolute inset-0" style={{
             backgroundImage: `repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 4px)`,
             backgroundSize: '100% 100%'

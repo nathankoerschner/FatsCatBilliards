@@ -10,16 +10,18 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full z-50 bg-background/95 backdrop-blur border-b border-border/40">
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2">
-            <img 
-              src="/attached_assets/fatcats_1763819263557.jpg" 
-              alt="Fat Cat's Billiards" 
+        <Link href="/">
+          <a className="flex items-center gap-2">
+            <img
+              src="/attached_assets/fatcats_1763819263557.jpg"
+              alt="Fat Cat's Billiards"
               className="h-14 w-auto rounded-full border-2 border-primary"
             />
             <span className="hidden md:block font-heading text-2xl font-bold text-foreground uppercase tracking-wider">
               Fat Cat's
               <span className="text-primary ml-1">Billiards</span>
             </span>
+          </a>
         </Link>
 
         {/* Desktop Nav */}

@@ -1,7 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
-import Events from "@/components/Events";
 import Gallery from "@/components/Gallery";
 import Location from "@/components/Location";
 import Footer from "@/components/Footer";
@@ -13,7 +12,6 @@ export default function Home() {
       <main>
         <Hero />
         <About />
-        <Events />
         <Gallery />
         <Location />
       </main>

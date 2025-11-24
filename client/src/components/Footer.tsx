@@ -15,8 +15,6 @@ export default function Footer() {
 
           {/* Links */}
           <div className="flex gap-8">
-            <a href="#menu" className="text-muted-foreground hover:text-primary transition-colors uppercase text-sm font-bold">Menu</a>
-            <a href="#events" className="text-muted-foreground hover:text-primary transition-colors uppercase text-sm font-bold">Events</a>
             <a href="#gallery" className="text-muted-foreground hover:text-primary transition-colors uppercase text-sm font-bold">Photos</a>
             <a href="#location" className="text-muted-foreground hover:text-primary transition-colors uppercase text-sm font-bold">Contact</a>
           </div>

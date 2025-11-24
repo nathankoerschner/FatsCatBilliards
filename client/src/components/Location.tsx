@@ -22,7 +22,7 @@ export default function Location() {
                 <Phone className="w-6 h-6 text-primary shrink-0 mt-1" />
                 <div>
                   <h3 className="font-heading text-xl font-bold text-white">Phone</h3>
-                  <p className="text-muted-foreground hover:text-white transition-colors cursor-pointer">(828) 681-0555</p>
+                  <a href="tel:+18286810555" className="text-muted-foreground hover:text-white transition-colors cursor-pointer">(828) 681-0555</a>
                 </div>
               </div>
 
@@ -39,10 +39,6 @@ export default function Location() {
                     <span className="text-white">11:30 AM - 12:00 AM</span>
                     <span>Sunday</span>
                     <span className="text-white">12:00 PM - 2:00 AM</span>
-                  </div>
-                  <div className="mt-4 inline-flex items-center px-3 py-1 rounded-full bg-green-500/10 text-green-500 text-xs font-bold uppercase tracking-wide border border-green-500/20">
-                    <span className="w-2 h-2 rounded-full bg-green-500 mr-2 animate-pulse"/>
-                    Open Now
                   </div>
                 </div>
               </div>

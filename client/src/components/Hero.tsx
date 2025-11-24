@@ -27,9 +27,11 @@ export default function Hero() {
           </p>
 
           <div className="flex justify-center">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-8 py-6 h-auto rounded-full shadow-[0_0_20px_rgba(33,168,224,0.5)] hover:shadow-[0_0_30px_rgba(33,168,224,0.7)] transition-all">
-              <Phone className="w-5 h-5 mr-2" />
-              Call Now
+            <Button size="lg" asChild className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-8 py-6 h-auto rounded-full shadow-[0_0_20px_rgba(33,168,224,0.5)] hover:shadow-[0_0_30px_rgba(33,168,224,0.7)] transition-all">
+              <a href="tel:+18286810555">
+                <Phone className="w-5 h-5 mr-2" />
+                Call Now
+              </a>
             </Button>
           </div>
         </div>

@@ -29,9 +29,11 @@ export default function Navbar() {
           <a href="#gallery" className="text-foreground/80 hover:text-primary transition-colors font-heading text-lg uppercase">Photos</a>
           <a href="#location" className="text-foreground/80 hover:text-primary transition-colors font-heading text-lg uppercase">Contact</a>
           
-          <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold uppercase tracking-wide rounded-full px-6">
-            <Phone className="w-4 h-4 mr-2" />
-            Call Now
+          <Button asChild className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold uppercase tracking-wide rounded-full px-6">
+            <a href="tel:+18286810555">
+              <Phone className="w-4 h-4 mr-2" />
+              Call Now
+            </a>
           </Button>
         </div>
 
@@ -49,8 +51,10 @@ export default function Navbar() {
         <div className="md:hidden bg-background border-b border-border/40 p-4 flex flex-col gap-4">
           <a href="#gallery" className="text-lg font-heading uppercase text-center py-2" onClick={() => setIsOpen(false)}>Photos</a>
           <a href="#location" className="text-lg font-heading uppercase text-center py-2" onClick={() => setIsOpen(false)}>Contact</a>
-          <Button className="w-full bg-primary text-primary-foreground uppercase font-bold">
-            Call (828) 681-0555
+          <Button asChild className="w-full bg-primary text-primary-foreground uppercase font-bold">
+            <a href="tel:+18286810555">
+              Call (828) 681-0555
+            </a>
           </Button>
         </div>
       )}

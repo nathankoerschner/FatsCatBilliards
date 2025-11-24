@@ -24,7 +24,6 @@ export default function Navbar() {
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">
-          <a href="#menu" className="text-foreground/80 hover:text-primary transition-colors font-heading text-lg uppercase">Menu</a>
           <a href="#events" className="text-foreground/80 hover:text-primary transition-colors font-heading text-lg uppercase">Events</a>
           <a href="#gallery" className="text-foreground/80 hover:text-primary transition-colors font-heading text-lg uppercase">Photos</a>
           <a href="#location" className="text-foreground/80 hover:text-primary transition-colors font-heading text-lg uppercase">Contact</a>
@@ -47,7 +46,6 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-background border-b border-border/40 p-4 flex flex-col gap-4">
-          <a href="#menu" className="text-lg font-heading uppercase text-center py-2" onClick={() => setIsOpen(false)}>Menu</a>
           <a href="#events" className="text-lg font-heading uppercase text-center py-2" onClick={() => setIsOpen(false)}>Events</a>
           <a href="#gallery" className="text-lg font-heading uppercase text-center py-2" onClick={() => setIsOpen(false)}>Photos</a>
           <a href="#location" className="text-lg font-heading uppercase text-center py-2" onClick={() => setIsOpen(false)}>Contact</a>

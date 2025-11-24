@@ -46,7 +46,7 @@
   --background: 222 47% 11%; /* Deep Navy/Black */
   --foreground: 210 40% 98%;
 
-  /* Primary Orange (from logo) */
+  /* Primary Orange (was accent) */
   --primary: 28 76% 50%;
   --primary-foreground: 222 47% 11%;
 
@@ -54,7 +54,7 @@
   --secondary: 25 30% 25%; /* Dark Wood */
   --secondary-foreground: 210 40% 98%;
 
-  /* Electric Blue Accent */
+  /* Electric Blue Accent (was primary) */
   --accent: 197 76% 50%; 
   --accent-foreground: 222 47% 11%;
 

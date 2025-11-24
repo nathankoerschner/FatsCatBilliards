@@ -1,9 +1,8 @@
 import poolBallsImg from "@assets/generated_images/close_up_of_pool_balls_on_blue_felt.png";
 import dartsImg from "@assets/generated_images/close_up_of_dart_board_with_darts.png";
-import cornholeImg from "@assets/generated_images/close_up_of_cornhole_bag_on_board.png";
 
 export default function Gallery() {
-  const mainImage = "/attached_assets/fatcats_1764013548845.webp";
+  const mainImage = "/fatcats_1764013548845.webp";
 
   return (
     <section id="gallery" className="py-20 bg-card/20">
@@ -42,18 +41,9 @@ export default function Gallery() {
           </div>
 
           <div className="relative group overflow-hidden rounded-2xl border border-border/20 shadow-xl">
-            <img 
-              src={dartsImg} 
-              alt="Darts Area" 
-              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-            />
-            <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors" />
-          </div>
-
-          <div className="relative group overflow-hidden rounded-2xl border border-border/20 shadow-xl">
-            <img 
-              src={cornholeImg} 
-              alt="Cornhole Boards" 
+            <img
+              src={dartsImg}
+              alt="Darts Area"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors" />

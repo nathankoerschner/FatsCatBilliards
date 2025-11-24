@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter } from "lucide-react";
+import { Facebook } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -21,11 +21,8 @@ export default function Footer() {
 
           {/* Social */}
           <div className="flex gap-4">
-            <a href="#" className="w-10 h-10 rounded-full bg-card flex items-center justify-center text-white hover:bg-primary hover:text-white transition-colors border border-border">
+            <a href="https://www.facebook.com/FatCatsAsheville" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-card flex items-center justify-center text-white hover:bg-primary hover:text-white transition-colors border border-border">
               <Facebook className="w-5 h-5" />
-            </a>
-            <a href="#" className="w-10 h-10 rounded-full bg-card flex items-center justify-center text-white hover:bg-accent hover:text-white transition-colors border border-border">
-              <Instagram className="w-5 h-5" />
             </a>
           </div>
         </div>

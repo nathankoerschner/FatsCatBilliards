@@ -13,7 +13,7 @@ export default function Navbar() {
         <Link href="/">
           <a className="flex items-center gap-2">
             <img
-              src="/attached_assets/fatcats_1763819263557.jpg"
+              src="/fatcats.png"
               alt="Fat Cat's Billiards"
               className="h-14 w-auto rounded-full border-2 border-primary"
             />

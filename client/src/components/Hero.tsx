@@ -38,13 +38,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce text-white/50">
-        <div className="w-6 h-10 border-2 border-current rounded-full flex justify-center pt-2">
-          <div className="w-1 h-2 bg-current rounded-full" />
-        </div>
-      </div>
     </section>
   );
 }

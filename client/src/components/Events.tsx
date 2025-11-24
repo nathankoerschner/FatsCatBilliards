@@ -11,10 +11,10 @@ export default function Events() {
       color: "text-primary"
     },
     {
-      title: "Karaoke & DJ",
+      title: "Sports Viewing",
       date: "Friday & Saturday Nights",
-      desc: "Sing your heart out or enjoy the mix. Late night food menu available.",
-      icon: Mic,
+      desc: "Catch all the big games on our screens. Late night food menu available.",
+      icon: Shield,
       color: "text-accent"
     },
     {

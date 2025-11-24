@@ -32,13 +32,13 @@ export default function Location() {
                   <h3 className="font-heading text-xl font-bold text-white mb-2">Hours</h3>
                   <div className="grid grid-cols-2 gap-x-8 gap-y-2 text-sm text-muted-foreground">
                     <span>Monday - Thursday</span>
-                    <span className="text-white">4:00 PM - 12:00 AM</span>
+                    <span className="text-white">11:30 AM - 2:00 AM</span>
                     <span>Friday</span>
-                    <span className="text-white">4:00 PM - 2:00 AM</span>
+                    <span className="text-white">11:30 AM - 12:00 AM</span>
                     <span>Saturday</span>
-                    <span className="text-white">12:00 PM - 2:00 AM</span>
+                    <span className="text-white">11:30 AM - 12:00 AM</span>
                     <span>Sunday</span>
-                    <span className="text-white">12:00 PM - 12:00 AM</span>
+                    <span className="text-white">12:00 PM - 2:00 AM</span>
                   </div>
                   <div className="mt-4 inline-flex items-center px-3 py-1 rounded-full bg-green-500/10 text-green-500 text-xs font-bold uppercase tracking-wide border border-green-500/20">
                     <span className="w-2 h-2 rounded-full bg-green-500 mr-2 animate-pulse"/>

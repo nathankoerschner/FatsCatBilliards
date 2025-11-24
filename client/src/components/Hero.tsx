@@ -26,14 +26,10 @@ export default function Hero() {
             Premier tables, cold drinks, great food, and the best league action in Western NC.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex justify-center">
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-8 py-6 h-auto rounded-full shadow-[0_0_20px_rgba(33,168,224,0.5)] hover:shadow-[0_0_30px_rgba(33,168,224,0.7)] transition-all">
-              View Menu
-            </Button>
-            
-            <Button size="lg" variant="outline" className="bg-transparent border-2 border-white text-white hover:bg-white/10 font-bold text-lg px-8 py-6 h-auto rounded-full">
-              <ArrowRight className="w-5 h-5 mr-2" />
-              See Leagues
+              <Phone className="w-5 h-5 mr-2" />
+              Call Now
             </Button>
           </div>
         </div>

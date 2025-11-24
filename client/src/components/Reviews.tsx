@@ -4,7 +4,7 @@ export default function Reviews() {
   const reviews = [
     { name: "Mike R.", text: "Best tables in Asheville, hands down. The Diamond tables play fast and true. Great beer selection too.", stars: 5 },
     { name: "Sarah J.", text: "Came for the sports, stayed for the wings. The atmosphere is electric on Friday nights!", stars: 5 },
-    { name: "David B.", text: "Clean place, friendly staff, and plenty of tables. The weekly tournament is run very professionally.", stars: 5 },
+    { name: "David B.", text: "Clean place, friendly staff, and plenty of tables. The weekly league is run very professionally.", stars: 5 },
   ];
 
   return (

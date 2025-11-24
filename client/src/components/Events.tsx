@@ -32,7 +32,7 @@ export default function Events() {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-6xl font-bold text-white mb-4">EVENTS & <span className="text-primary">TOURNAMENTS</span></h2>
+          <h2 className="text-4xl md:text-6xl font-bold text-white mb-4">EVENTS & <span className="text-primary">LEAGUES</span></h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">There's always something happening at Fat Cat's. Check out our weekly schedule.</p>
         </div>
 
@@ -55,7 +55,7 @@ export default function Events() {
         <div className="mt-12 p-8 bg-background/50 backdrop-blur rounded-2xl border border-border flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="text-left">
             <h3 className="text-2xl font-heading font-bold text-white mb-2">Watch Live Matches</h3>
-            <p className="text-muted-foreground">We stream major tournaments and league finals on Facebook Live.</p>
+            <p className="text-muted-foreground">We stream league matches and finals on Facebook Live.</p>
           </div>
           <a href="https://facebook.com" target="_blank" rel="noreferrer" className="bg-[#1877F2] hover:bg-[#1877F2]/90 text-white px-6 py-3 rounded-lg font-bold uppercase text-sm tracking-wide transition-colors">
             Watch on Facebook

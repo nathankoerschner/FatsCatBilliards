@@ -3,7 +3,7 @@ import { Target, Trophy, Beer, Tv } from "lucide-react";
 export default function About() {
   const features = [
     { icon: Target, label: "Diamond Tables" },
-    { icon: Trophy, label: "Tournaments" },
+    { icon: Trophy, label: "Leagues" },
     { icon: Beer, label: "Bar & Grill" },
     { icon: Tv, label: "UFC Fights" },
   ];
@@ -25,7 +25,7 @@ export default function About() {
             </h2>
             <div className="w-20 h-1 bg-white rounded-full" />
             <p className="text-lg text-black leading-relaxed font-medium">
-              Fat Cat's Billiards is Asheville's premier pool hall and grill — offering a tournament-level experience with a relaxed, neighborhood vibe. Whether you're a league player looking for action on our Diamond tables, or just hanging out for wings and sports, we've got your spot.
+              Fat Cat's Billiards is Asheville's premier pool hall and grill — offering a league-level experience with a relaxed, neighborhood vibe. Whether you're a league player looking for action on our Diamond tables, or just hanging out for wings and sports, we've got your spot.
             </p>
             
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-4">

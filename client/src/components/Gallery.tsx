@@ -25,7 +25,7 @@ export default function Gallery() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60" />
             <div className="absolute bottom-6 left-6">
-              <h3 className="text-2xl font-heading font-bold text-white uppercase tracking-wide">Tournament Night</h3>
+              <h3 className="text-2xl font-heading font-bold text-white uppercase tracking-wide">League Night</h3>
               <p className="text-primary font-medium">Live Action</p>
             </div>
           </div>
